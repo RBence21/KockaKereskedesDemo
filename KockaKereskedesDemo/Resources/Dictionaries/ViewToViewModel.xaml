@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:viewmodel="clr-namespace:KockaKereskedesDemo.ViewModels"
+                    xmlns:view="clr-namespace:KockaKereskedesDemo.Views">
+
+    <DataTemplate DataType="{x:Type viewmodel:LoginViewModel}">
+        <view:LoginView/>
+    </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type viewmodel:LoginSideViewModel}">
+        <view:LoginSideView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type viewmodel:MenuSideViewModel}">
+        <view:MenuSideView/>
+    </DataTemplate>
+</ResourceDictionary>

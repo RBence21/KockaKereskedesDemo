@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\App.xaml
-11407045341
-
-71198300085
+51806790661
+2-347735786
+161541145635
 194237474483
-MainWindow.xaml;
+Resources\Dictionaries\ViewToViewModel.xaml;Views\LoginSideView.xaml;Views\LoginView.xaml;Views\MainWindow.xaml;Views\MenuSideView.xaml;
 
-False
+True
 
