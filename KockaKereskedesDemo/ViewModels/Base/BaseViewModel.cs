@@ -14,7 +14,7 @@ namespace KockaKereskedesDemo.ViewModels.Base
 
         public void OnPropertyChanged(string propertyName)
         {
-            PropertyChanged?.Invoke(PropertyChanged, new PropertyChangedEventArgs(propertyName));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

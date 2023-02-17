@@ -7,6 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\ActiveAdsSideView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ActiveAdsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Components\CarCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EmptyDashboardView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\LoginSideView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,6 +31,18 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Resources\Dictionaries\ViewToViewModel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ActiveAdsSideView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ActiveAdsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Components\CarCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EmptyDashboardView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\LoginSideView.xaml">

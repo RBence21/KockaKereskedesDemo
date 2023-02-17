@@ -51,7 +51,9 @@
                             BorderThickness="5,0,0,0" BorderBrush="White"
                             Margin="1,1,1,0" Padding="20,0,0,0" 
                             Height="40"  FontSize="15" 
-                            HorizontalContentAlignment="Left" 
+                            HorizontalContentAlignment="Left"
+                            Command="{Binding OpenActiveAdsCommand}"
+                            CommandParameter="advertisements"
                             />
                     <Button Content="Új hirdetés"
                             Background="Transparent"

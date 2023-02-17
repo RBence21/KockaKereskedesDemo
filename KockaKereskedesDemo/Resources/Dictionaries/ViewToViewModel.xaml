@@ -14,4 +14,16 @@
     <DataTemplate DataType="{x:Type viewmodel:MenuSideViewModel}">
         <view:MenuSideView/>
     </DataTemplate>
+
+    <DataTemplate DataType="{x:Type viewmodel:EmptyDashboardViewModel}">
+        <view:EmptyDashboardView/>
+    </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type viewmodel:ActiveAdsViewModel}">
+        <view:ActiveAdsView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type viewmodel:ActiveAdsSideViewModel}">
+        <view:ActiveAdsSideView/>
+    </DataTemplate>
 </ResourceDictionary>

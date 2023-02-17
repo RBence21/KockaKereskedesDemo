@@ -31,3 +31,11 @@ C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\ne
 C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\MenuSideView.g.cs
 C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\MenuSideView.baml
 C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\bin\Debug\net6.0-windows\Resources\Images\profile-image.png
+C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\EmptyDashboardView.g.cs
+C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\EmptyDashboardView.baml
+C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\ActiveAdsView.g.cs
+C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\ActiveAdsView.baml
+C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\Components\CarCard.g.cs
+C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\Components\CarCard.baml
+C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\ActiveAdsSideView.g.cs
+C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\obj\Debug\net6.0-windows\Views\ActiveAdsSideView.baml

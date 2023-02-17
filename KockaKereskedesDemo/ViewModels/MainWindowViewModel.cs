@@ -1,5 +1,4 @@
-﻿using KockaKereskedesDemo.Stores;
-using KockaKereskedesDemo.ViewModels.Base;
+﻿using KockaKereskedesDemo.ViewModels.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,20 +9,33 @@ namespace KockaKereskedesDemo.ViewModels
 {
     public class MainWindowViewModel : BaseViewModel
     {
-        private readonly PresentedViewStore _presentedViewStore;
-
-        public BaseViewModel PresentedSideView => _presentedViewStore.PresentedSideView;
-        public BaseViewModel PresentedView => _presentedViewStore.PresentedView;
-
-        public MainWindowViewModel(PresentedViewStore presentedViewStore)
+        private BaseViewModel _presentedSideView;
+        private BaseViewModel _presentedView;
+        
+        public BaseViewModel PresentedSideView
         {
-            _presentedViewStore = presentedViewStore;
-            _presentedViewStore.OnPropertyChanged(nameof(PresentedView));
-            _presentedViewStore.OnPropertyChanged(nameof(PresentedSideView));
+            get { return _presentedSideView; }
+            set 
+            { 
+                _presentedSideView = value;
+                OnPropertyChanged(nameof(PresentedSideView));
+            }
         }
-        private void OnPresentedViewChanged()
+
+        public BaseViewModel PresentedView
         {
-            OnPropertyChanged(nameof(PresentedSideView));
+            get { return _presentedView; }
+            set
+            {
+                _presentedView = value;
+                OnPropertyChanged(nameof(PresentedView));
+            }
+        }
+
+        public MainWindowViewModel()
+        {
+            PresentedSideView = new LoginSideViewModel(this);
+            PresentedView = new LoginViewModel(this);
         }
     }
 }

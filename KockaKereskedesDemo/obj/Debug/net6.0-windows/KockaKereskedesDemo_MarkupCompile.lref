@@ -1,8 +1,12 @@
 ﻿
 FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\App.xaml;;
 FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Resources\Dictionaries\ViewToViewModel.xaml;;
+FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Views\EmptyDashboardView.xaml;;
+FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Views\LoginSideView.xaml;;
 FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Views\LoginView.xaml;;
 FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Views\MainWindow.xaml;;
-FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Views\LoginSideView.xaml;;
 FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Views\MenuSideView.xaml;;
+FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Views\ActiveAdsView.xaml;;
+FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Views\Components\CarCard.xaml;;
+FC:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\Views\ActiveAdsSideView.xaml;;
 

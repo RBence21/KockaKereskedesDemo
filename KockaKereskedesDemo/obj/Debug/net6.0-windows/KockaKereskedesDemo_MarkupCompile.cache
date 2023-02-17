@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Bence\source\repos\KockaKereskedesDemo\KockaKereskedesDemo\App.xaml
-51806790661
+9858011334
 2-347735786
-1491395323
+21-2103769758
 194237474483
-Resources\Dictionaries\ViewToViewModel.xaml;Views\LoginSideView.xaml;Views\LoginView.xaml;Views\MainWindow.xaml;Views\MenuSideView.xaml;
+Resources\Dictionaries\ViewToViewModel.xaml;Views\ActiveAdsSideView.xaml;Views\ActiveAdsView.xaml;Views\Components\CarCard.xaml;Views\EmptyDashboardView.xaml;Views\LoginSideView.xaml;Views\LoginView.xaml;Views\MainWindow.xaml;Views\MenuSideView.xaml;
 
 False
 

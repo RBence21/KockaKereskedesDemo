@@ -1,7 +1,8 @@
 ﻿<Application x:Class="KockaKereskedesDemo.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:KockaKereskedesDemo">
+             xmlns:local="clr-namespace:KockaKereskedesDemo"
+             StartupUri="Views/MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary Source="Resources/Dictionaries/ViewToViewModel.xaml"/>
     </Application.Resources>

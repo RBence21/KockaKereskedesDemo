@@ -1,5 +1,4 @@
 ﻿using KockaKereskedesDemo.Commands;
-using KockaKereskedesDemo.Stores;
 using KockaKereskedesDemo.ViewModels.Base;
 using System;
 using System.Collections.Generic;
@@ -13,14 +12,14 @@ namespace KockaKereskedesDemo.ViewModels
 {
     public class LoginSideViewModel : BaseViewModel
     {
-        private readonly PresentedViewStore _presentedViewStore;
+        private readonly MainWindowViewModel _mainWindowViewModel;
         
-        public ICommand LoginCommand { get; }
+        public ICommand LoginCommand { get; set; }
 
-        public LoginSideViewModel(PresentedViewStore presentedViewStore)
+        public LoginSideViewModel(MainWindowViewModel mainWindowViewModel)
         {
-            _presentedViewStore = presentedViewStore;
-            LoginCommand = new ChangeViewCommand(_presentedViewStore);
+            _mainWindowViewModel = mainWindowViewModel;
+            LoginCommand = new ChangeViewCommand(_mainWindowViewModel);
         }
     }
 }
